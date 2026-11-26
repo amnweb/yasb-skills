@@ -1,0 +1,19 @@
+{
+  "name": "yasb",
+  "version": "1.0.0",
+  "description": "Write, fix and share YASB 3 widgets, themes and layouts",
+  "author": {
+    "name": "amnweb",
+    "url": "https://github.com/amnweb"
+  },
+  "homepage": "https://github.com/amnweb/yasb-skills",
+  "repository": "https://github.com/amnweb/yasb-skills",
+  "license": "MIT",
+  "keywords": [
+    "yasb",
+    "qml",
+    "qt-quick",
+    "windows",
+    "status-bar"
+  ]
+}

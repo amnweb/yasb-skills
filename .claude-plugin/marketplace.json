@@ -1,0 +1,15 @@
+{
+  "name": "yasb-skills",
+  "description": "Agent Skills for writing YASB widgets, themes and layouts",
+  "owner": {
+    "name": "amnweb",
+    "url": "https://github.com/amnweb"
+  },
+  "plugins": [
+    {
+      "name": "yasb",
+      "source": "./plugins/yasb",
+      "description": "Write, fix and share YASB 3 widgets, themes and layouts"
+    }
+  ]
+}
