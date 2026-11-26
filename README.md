@@ -29,6 +29,25 @@ codex plugin marketplace add amnweb/yasb-skills
 codex plugin add yasb@yasb-skills
 ```
 
+In Gemini CLI:
+
+```powershell
+gemini skills install https://github.com/amnweb/yasb-skills.git --path plugins/yasb/skills/yasb
+```
+
+For GitHub Copilot, with the GitHub CLI:
+
+```powershell
+gh skill install amnweb/yasb-skills plugins/yasb/skills/yasb/SKILL.md
+```
+
+For other agents, such as Cursor, OpenCode or Cline, with
+[Vercel's skills installer](https://github.com/vercel-labs/skills):
+
+```powershell
+npx skills add amnweb/yasb-skills
+```
+
 Or copy the `plugins/yasb/skills/yasb` folder into your tool's skills folder:
 
 | Tool | For all projects | For one project |
@@ -41,12 +60,6 @@ Or copy the `plugins/yasb/skills/yasb` folder into your tool's skills folder:
 
 Codex, Gemini CLI and GitHub Copilot CLI also read `%USERPROFILE%\.agents\skills\yasb`, so one copy there works for all
 three.
-
-Gemini CLI can also install it from GitHub:
-
-```powershell
-gemini skills install https://github.com/amnweb/yasb-skills.git --path plugins/yasb/skills/yasb
-```
 
 If your tool doesn't support skills, copy [templates/AGENTS.md](templates/AGENTS.md) into your YASB config folder
 (`%USERPROFILE%\.config\yasb`) and open the tool there.
