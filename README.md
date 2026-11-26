@@ -19,6 +19,16 @@ In Claude Code:
 /plugin install yasb@yasb-skills
 ```
 
+In Codex:
+
+```powershell
+codex plugin marketplace add amnweb/yasb-skills
+```
+
+```powershell
+codex plugin add yasb@yasb-skills
+```
+
 Or copy the `plugins/yasb/skills/yasb` folder into your tool's skills folder:
 
 | Tool | For all projects | For one project |
